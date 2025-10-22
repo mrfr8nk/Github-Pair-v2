@@ -438,7 +438,7 @@ router.get('/', async (req, res) => {
                                     <input type="checkbox" class="session-checkbox" value="${session.sessionId}" onchange="updateActionButtons()">
                                 </td>
                                 <td>
-                                    <span class="session-id">Darex*${session.sessionId}</span>
+                                    <span class="session-id">Ice~${session.sessionId}</span>
                                 </td>
                                 <td>
                                     <span class="phone-number">${phoneNumber}</span>
