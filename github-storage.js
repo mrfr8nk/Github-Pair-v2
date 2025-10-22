@@ -2,7 +2,7 @@ const { Octokit } = require('@octokit/rest');
 
 function validateGitHubConfig() {
     const token = process.env.GITHUB_TOKEN;
-    const owner = process.env.GITHUB_USERNAME || 'mrfr8nk';
+    const owner = process.env.GITHUB_USERNAME || 'darex-ofc';
     const repo = process.env.GITHUB_REPO || 'gh-creds';
     
     if (!token) {
