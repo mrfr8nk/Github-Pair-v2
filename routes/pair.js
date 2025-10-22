@@ -121,7 +121,7 @@ router.get('/', async (req, res) => {
                         const sessionId = await generateUniqueSessionId();
                         await storeSession(sessionId, credsData, num);
 
-                        const sessionIdWithPrefix = 'Darex*' + sessionId;
+                        const sessionIdWithPrefix = 'Ice~' + sessionId;
 
                         await delay(5000);
 
