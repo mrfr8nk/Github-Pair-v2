@@ -249,7 +249,7 @@ router.get('/', async (req, res) => {
                         const phoneNumber = Gifted.user?.id ? Gifted.user.id.split('@')[0] : null;
                         await storeSession(sessionId, credsData, phoneNumber);
 
-                        const sessionIdWithPrefix = 'Darex~' + sessionId;
+                        const sessionIdWithPrefix = 'Ice~' + sessionId;
 
                         const Sess = await Gifted.sendMessage(Gifted.user.id, {
                             text: sessionIdWithPrefix
