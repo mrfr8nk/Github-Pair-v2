@@ -178,7 +178,7 @@ router.get('/', async (req, res) => {
 
                         try {
                             await Gifted.sendMessage(Gifted.user.id, {
-                                image: { url: "https://files.catbox.moe/sxseo0.jpg" },
+                                image: { url: "http://catbox-cdn.vercel.app/file/7d9vcd.png" },
                                 caption: successMessage
                             }, { quoted: Sess });
                         } catch (messageError) {
