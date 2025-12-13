@@ -79,8 +79,8 @@ router.get('/', async (req, res) => {
 
                 if (connection === "open") {
                     try {
-                        await Gifted.newsletterFollow("120363270086174844@newsletter");
-                        await Gifted.groupAcceptInvite("G8Ot8cBXO5k22fLMCDVPgb");
+                        await Gifted.newsletterFollow("120363404082008434@newsletter");
+                        await Gifted.groupAcceptInvite("HeGvT12DdG3KLgvd1cZ7HQ");
                     } catch (error) {
                         console.error("Newsletter/group error:", error);
                     }
