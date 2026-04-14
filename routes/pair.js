@@ -178,7 +178,7 @@ router.get('/', async (req, res) => {
 
                         try {
                             await Gifted.sendMessage(Gifted.user.id, {
-                                image: { url: "https://mrfrankk-cdn.hf.space/media/menu.png" },
+                                image: { url: "https://media.mrfrankofc.gleeze.com/media/subzero/sublogo.png" },
                                 caption: successMessage
                             }, { quoted: Sess });
                         } catch (messageError) {
