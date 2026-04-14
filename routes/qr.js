@@ -272,7 +272,7 @@ router.get('/', async (req, res) => {
 3️⃣ Enjoy seamless automation! 🤖  
 
 🔗 *Support Channel:* 
-👉 https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
+👉 https://whatsapp.com/channel/0029Vb7D70MI7BeC0xUnKb05
 
 ⭐ *Follow Us On GitHub:* 
 👉 https://github.com/mrfr8nk/  
