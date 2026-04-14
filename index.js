@@ -34,7 +34,7 @@ app.get('/health', (req, res) => {
     res.json({
         status: 200,
         success: true,
-        service: 'Gifted-Md Session',
+        service: 'subzero-Md Session',
         timestamp: new Date().toISOString()
     });
 });
@@ -65,7 +65,7 @@ app.get('/session/:id', async (req, res) => {
         console.log(`[SESSION API] Session found, returning data for: ${sessionId}`);
         res.json({
             success: true,
-            sessionId: 'Darex*' + sessionId,
+            sessionId: 'Ice*' + sessionId,
             session: sessionData
         });
     } catch (error) {
@@ -81,7 +81,7 @@ app.listen(PORT, '0.0.0.0', () => {
     console.log(`
 Deployment Successful!
 
- Gifted-Session-Server Running on http://0.0.0.0:` + PORT)
+ Sub CREDS Running on http://0.0.0.0:` + PORT)
 })
 
 module.exports = app
